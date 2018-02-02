@@ -41,19 +41,47 @@ h2 {
     
 }
 
+/* Styling for the navigation links */
+
 .links {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777;
-    width: 33%;
-    height: 75px;
+    width: 250px;
+    height: 40px;
     float: right;
+    padding: 20px;
+    margin: 5px;
 }
 
-#p-links {
+.about-link {
     font-size: 1em;
-    float: right;
-    padding: 30px 40px;
+    float: left;
+    padding: 2px;
+    margin: 2px;
 }
+
+.link-divider {
+    font-size: 1em;
+    float: left;
+    padding: 2px;
+    margin: 2px;
+}
+
+.contact-link {
+    font-size: 1em;
+    float: left;
+    padding: 2px;
+    margin: 2px;
+}
+
+.portfolio-link {
+    font-size: 1em;
+    float: left;
+    padding: 2px;
+    margin: 2px;
+}
+
+/* Styling for main section */
 
 .main {
     color: #777;
@@ -242,8 +270,8 @@ input {
 .portfolio-box {
     width: 260px;
     height: 200px;
-    padding: 5px;
-    margin: 5px;
+    padding: 1px;
+    margin: 25px 5px 2px 40px;
     float: left;
     display: block;
 }
