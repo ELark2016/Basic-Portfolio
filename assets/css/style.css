@@ -195,7 +195,7 @@ a {
 
 .footer {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    position: relative;
+    position: fixed;
     width: 100%;
     height: 50px;
     margin: auto;
