@@ -1,7 +1,6 @@
 
 body {
     background-image: url("../images/vintage-concrete.png");
-    overflow-y:scroll;
     padding-bottom: 50px;
     height: 100%;
 }
@@ -188,23 +187,14 @@ a {
     
 }
 
-.footerbar {
-    width: 100%;
-    height: 5px;
-    background: #4aaaa5;
-    position: relative;
-    clear: both;
-}
-
 .footer {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    position: fixed;
+    position: absolute;
     width: 100%;
     height: 50px;
-    /* margin: auto; */
     bottom: 0;
     background: #666;
-    /* clear: both; */
+    border-top: solid 5px #4aaaa5;
 }
 
 #footer-copy {
