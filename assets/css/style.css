@@ -194,7 +194,12 @@ a {
     height: 50px;
     bottom: 0;
     background: #666;
-    border-top: solid 6px #4aaaa5;
+}
+
+.footerbar {
+    height: 5px;
+    background: #4aaaa5;
+    width: 100%;
 }
 
 #footer-copy {
